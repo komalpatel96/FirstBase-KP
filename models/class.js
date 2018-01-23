@@ -7,7 +7,7 @@ module.exports = function(sequelize, DataTypes) {
     allowNull: false
     },
     startTime: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(350),
       allowNull: false
     },
     endTime: {
